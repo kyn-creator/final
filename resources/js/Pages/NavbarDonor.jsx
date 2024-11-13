@@ -25,7 +25,7 @@ function NavbarDonor(){
                 <div className="container mx-auto flex justify-between items-center">
                     {/* Left Side */}
                     <div className="text-2xl font-bold">
-                        <Link to="/">
+                        <Link to="/donor">
                             <img src={Logo} alt="ScholarHub Logo" width={150} height={150}/>
                         </Link>
                     </div>

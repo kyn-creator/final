@@ -7,13 +7,21 @@ const AcceptedStatus = () => {
       <div className="container mx-auto p-6">
         {/* Title and Back Button Section */}
         <div className="flex justify-between items-center mb-12">
-          {/* Back Button */}
-        
+
           {/* Title */}
           <div>
-          <a href="/ApplicantStatus"> 
-          <h1 className="text-3xl font-semibold text-green-800 mb-4">Accepted Applicants</h1>          </a>
+            <h1 className="text-3xl font-semibold text-green-800 mb-4">Accepted Applicants</h1>
           </div>
+          
+          {/* Back Button */}
+          <a href="/ApplicantStatus">
+            <button className="bg-green-700 text-white py-2 px-4 rounded-lg hover:bg-green-600">
+              &larr; Back
+            </button>
+          </a>
+
+
+
         </div>
 
         {/* Applicant Cards Section */}

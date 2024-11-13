@@ -46,7 +46,7 @@ const ViewMore = () => {
           <a href="/DeclinedStatus" className="w-full mx-2">
             <button className="bg-red-600 text-white py-2 rounded-lg w-full">DECLINED</button>
           </a>
-          <button className="bg-yellow-400 text-black py-2 rounded-lg w-full">PENDING</button>
+         
         </div>
       </div>
 

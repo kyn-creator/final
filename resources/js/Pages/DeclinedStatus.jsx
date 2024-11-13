@@ -7,16 +7,17 @@ const DeclinedStatus = () => {
       <div className="container mx-auto p-6">
         {/* Title and Back Button Section */}
         <div className="flex justify-between items-center mb-12">
-          {/* Back Button */}
-          
-          
-          
 
-          <a href="/ApplicantStatus">
+
+          {/* Title */}
           <div>
             <h1 className="text-3xl font-semibold text-red-800 mb-4">Declined Applicants</h1>
-            
           </div>
+          {/* Back Button */}
+          <a href="/ApplicantStatus">
+            <button className="bg-red-800 text-white py-2 px-4 rounded-lg hover:bg-red-600">              
+              &larr; Back
+            </button>
           </a>
         </div>
 
